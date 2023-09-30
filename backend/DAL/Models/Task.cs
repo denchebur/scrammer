@@ -1,6 +1,6 @@
-﻿using backend.Models.Enums;
+﻿using DAL.Models.Enums;
 
-namespace backend.Models;
+namespace DAL.Models;
 
 public class Task
 {

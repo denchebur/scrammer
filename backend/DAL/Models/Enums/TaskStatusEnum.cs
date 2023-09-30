@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace backend.Models.Enums;
+namespace DAL.Models.Enums;
 
 public enum TaskStatusEnum
 {
