@@ -1,4 +1,4 @@
-﻿using DAL.Models.Enums;
+﻿using DAL.Enums;
 
 namespace DAL.Models;
 

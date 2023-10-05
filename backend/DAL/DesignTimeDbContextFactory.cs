@@ -11,7 +11,7 @@ public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<DatabaseCo
     {
         IConfigurationRoot configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettingsDAL.json")
+            .AddJsonFile("appsettings.json")
             .Build();
         var builder = new DbContextOptionsBuilder<DatabaseContext>();
         var connectionString = configuration.GetConnectionString("DefaultConnection");
