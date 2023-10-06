@@ -3,6 +3,7 @@
 public class Board
 {
     public int BoardId { get; set; }
+    public string BoardName { get; set; }
     public List<TaskList> TaskLists { get; set; }
     public List<User> Users { get; set; }
 }

@@ -41,6 +41,6 @@ public class TaskRepository : IRepository<Task>
 
     public void Update(Task item)
     {
-        ctx.Users.Entry(item).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+        ctx.Tasks.Entry(item).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
     }
 }
