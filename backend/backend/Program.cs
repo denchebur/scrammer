@@ -1,4 +1,8 @@
+using BLL.Interfaces;
+using BLL.Services;
 using DAL;
+using DAL.Repository;
+using DAL.Repository.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +13,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureServices(builder.Configuration);
+
+builder.Services.AddScoped<IUnitOfWork, EFUnitOfWork>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

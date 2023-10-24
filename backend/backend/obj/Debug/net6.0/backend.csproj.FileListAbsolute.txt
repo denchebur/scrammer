@@ -90,3 +90,4 @@ D:\Pet projects\canbanapp\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrame
 D:\Pet projects\canbanapp\backend\backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\Pet projects\canbanapp\backend\backend\bin\Debug\net6.0\Mono.TextTemplating.dll
 D:\Pet projects\canbanapp\backend\backend\bin\Debug\net6.0\System.CodeDom.dll
+D:\Pet projects\canbanapp\backend\backend\bin\Debug\net6.0\AutoMapper.dll

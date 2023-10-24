@@ -1,9 +1,19 @@
-﻿namespace DAL.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
-public class Board
+namespace DAL.Models;
+
+public partial class Board
 {
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int BoardId { get; set; }
-    public string BoardName { get; set; }
-    public List<TaskList> TaskLists { get; set; }
-    public List<User> Users { get; set; }
+
+    public string BoardName { get; set; } = null!;
+
+    public int UserId { get; set; }
+
+    public virtual ICollection<TaskList> TaskLists { get; set; } = new List<TaskList>();
+
+    public virtual User User { get; set; } = null!;
 }

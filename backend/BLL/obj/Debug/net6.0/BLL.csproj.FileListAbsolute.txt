@@ -10,3 +10,6 @@ D:\Pet projects\canbanapp\backend\BLL\obj\Debug\net6.0\BLL.dll
 D:\Pet projects\canbanapp\backend\BLL\obj\Debug\net6.0\refint\BLL.dll
 D:\Pet projects\canbanapp\backend\BLL\obj\Debug\net6.0\BLL.pdb
 D:\Pet projects\canbanapp\backend\BLL\obj\Debug\net6.0\ref\BLL.dll
+D:\Pet projects\canbanapp\backend\BLL\bin\Debug\net6.0\DAL.dll
+D:\Pet projects\canbanapp\backend\BLL\bin\Debug\net6.0\DAL.pdb
+D:\Pet projects\canbanapp\backend\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
